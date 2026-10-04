@@ -22,11 +22,89 @@
 
         <a href="historia">Historia</a>
 
-        <a href="#jogadores">Jogadores</a>
+        <a href="#jogos-semelhantes">Jogadores</a>
 
         <a href="#reviews">Reviews</a>
 
-       <a href="login.html">Login</a>
+        <button popovertarget="login">
+
+        Login In
+
+       </button>
+
+       <div id="login" popover>
+
+        <h2>Login</h2>
+             <form>
+                <p>
+                    <label for="email">E-mail:</label>
+
+                    <input 
+                      
+                      type="email"
+                      
+                      id="email"
+                      
+                      name="email"
+                      
+                      required
+                      >
+                </p>
+               
+                <p>
+                    <label for="senha">Senha:</label>
+
+                    <input 
+                    
+                    type="password"
+                    
+                    id="senha"
+
+                    name="senha"
+
+                    required
+                    >
+                </p>
+                
+                <p>
+                   
+                    <input 
+                    
+                    type="checkbox"
+                    
+                    name="continuar"
+                    
+                    id="continuar">
+                    <label for="continuar">Se Manter Conectado</label>
+                </p>
+                
+                <p> 
+                    <input 
+                    
+                    type="checkbox" 
+                    
+                    name="notificacoes" 
+                    
+                    id="notificacoess">
+                    
+                    <label for="notificacoes">Notificações De Atualizações</label>
+                </p>
+                
+                <button type="submit">
+                    Login in
+                </button>
+
+               
+
+            </div>
+
+            <button type="button">
+
+        <a href="sign-in.html">
+            Sign-In
+        </a>
+       </button>
+       
         
     </nav>
 
@@ -68,10 +146,20 @@
 
             </article>
         </section>
-            
+
+        <aside>
+        
+            <p> Desenvolvedora: FromSoftware </p>
+
+        </aside>
+        
+        <h2>Deixe Sua Anailise</h2>
+        
+        <textarea name="opiniao" id="opiniao" rows="15" cols="70"> </textarea>
+        
         <section id="reviews">
             <article>
-                <h2>Melhores Análises </h2>
+                <h2> Analises De Jogadores </h2>
             
                 <p>User432 (Recomendado): O bilhete dizia "baú à frente" na beira de um penhasco, Olhei em volta e só vi o vazio e dezenas de manchas de sangue no chão. Pensei: "Eles devem ter errado o pulo, eu preciso ter certeza...". Pulei. Não havia baú. Agora a minha mancha de sangue serve de aviso para o próximo otário. 10/10.</p>
 
@@ -80,14 +168,24 @@
                  De fato não preciso rasgar elogios, apenas apreciar tudo em Elden Ring é o suficiente para se entender o motivo de isso ser um dos melhores jogos já feitos. E nem preciso falar da DLC que claramente é uma das melhores DLC já criadas. Um mapa enorme, inimigos desafiadores, novos sistemas de progressão e uma história incrível</p>
             </article>
         </section>
-        <section id="jogadores">Pessoas Jogando Agora</section>
-
-       
         
+
+      
+
+       </div>
+      
+      
+    </section> 
+       
+    
        
     </main>
 
-    <footer>
+    
+
+
+</body>
+<footer>
 
         <p>GameHub</p>
 
@@ -96,10 +194,11 @@
             <a href="#inicio">Voltar Ao Inicio</a>
         
         </p>
+        
+     <button type="button"> <a href="Cadastro.html">
 
-    </footer>
-
-
-</body>
-<footer></footer>
+        Cadastrar Jogo
+     </a> </button>
+        
+</footer>
 </html>
